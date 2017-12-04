@@ -1,0 +1,96 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+/*Arreglo filas*/
+#fila {
+  margin: 0;
+}
+/*Encabezado de la Página*/
+.encabezado {
+  background-color: #F79F81;
+  color: white;
+  padding: 1%;
+}
+.titulo {
+  font-size: 3em;
+  font-weight: bold; 
+}
+.pequeña-frase {
+  font-weight: lighter;
+  font-size: 1.5em;
+  margin-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+.titulo, .pequeña-frase {
+  max-width: 100%;
+  text-align: right;
+  margin-right: 5%;
+}
+/*Imagen de la primera sección*/
+#col12 {
+  padding: 0;
+}
+.panda1, .panda2, .panda7 {
+  width: 100%; /*Cómo cortar imagenes en CSS (sin cortarlas como tal)???*/
+  max-height: 30em;
+  min-width: 20%;
+  background-color: #F79F81;
+  padding-bottom: 1em;
+}
+/*Parrafo de la segunda sección*/
+.cuadro1, .cuadro3 {
+  background-color: #81F781;
+}
+.subtitulo {
+  font-size: 1.5em;
+  margin-top: 3em;
+}
+.subtitulo, .parrafo1 {
+  max-width: 35%;
+  background-color: #F79F81;
+  color: white;
+  padding: 1em;
+  text-align: center;
+  margin-left: 33%;
+  margin-bottom: 0;
+}
+.parrafo1 {
+  margin-top: 0;
+  margin-bottom: 5em;
+}
+/*Imagenes y texto de la tercera sección*/
+.titulo2 {
+  font-size: 3em;
+  text-align: center;
+  color: white;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+.panda3 {
+  background-color: white;
+  padding: 1em;
+  margin-left: 15%;
+}
+.panda4, .panda5, .panda6 {
+  padding: 1em;
+  background-color: white;
+  margin-left: 3.5em;
+}
+.panda3, .panda4, .panda5, .panda6 {
+  margin-bottom: 10%;
+  max-width: 100% /*Cómo hacer que las fotos de los pandas queden perfectamente alineadas cuando está al tamaño mínimo??*/
+}
+/*Footer*/
+.cierre {
+  background-color: #F79F81;
+  padding-bottom: 1em;
+}
+.ultimaFrase {
+  font-size: 1em;
+  color: white;
+  text-align: right;
+  margin-top: 1em;
+  margin-right: 1%;
+}
+/*Quedan unas lineas blancas entre columnas... Cómo se puede arreglar ese conflicto con materialize??*/
